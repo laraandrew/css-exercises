@@ -12,6 +12,53 @@ img {
   font-weight: 900;
 }
 
+/* now my changes:  */
+
+.title {
+  text-align: center;
+
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.pep, .saf, .bby, .chi {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 300px;
+  height: 140px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
